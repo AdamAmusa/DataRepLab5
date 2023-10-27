@@ -1,0 +1,33 @@
+<html>
+
+<body>
+    <h1>Hello from Index!</h1>
+
+    <h3>GET METHOD</h3>
+    <!--On submission the inputs are added into the url as a query-->
+    <form action='/name' method="GET"><!--Information in the form the form is sent to the /name web page-->
+        <label>First Name: </label>
+        <input type="text" name="fname" value="Adam"><br> <!--First name is giving the variable name of fname-->
+
+        <label>Surname: </label>
+        <input type="text" name="lname" value="Amusa"><br><!--second name is giving the variable name of lname-->
+
+        <input type="submit" value="submit"><!--On submit the values are sent to the Post method and is then forwarded to the web page-->
+    </form>
+
+    <h3>POST METHOD</h3>
+    <!--On submission the inputs are sent using the post method-->
+    <form action='/name' method="POST">
+        <label>First Name: </label>
+        <input type="text" name="fname" value="Adam"><br> <!--First name is giving the variable name of fname-->
+
+        <label>Surname: </label>
+        <input type="text" name="lname" value="Amusa"><br><!--second name is giving the variable name of lname-->
+
+        <input type="submit" value="submit"> <!--On submit the values are sent to the Post method and is then forwarded to the web page-->
+    </form>
+
+
+</body>
+
+</html>
